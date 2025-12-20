@@ -6,7 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),instantnoodlep)
 
-$(call add-radio-file-sha1-checked,radio/abl.img,63a2b7939e189985688b9819de14dadf82e510d6)
+$(call add-radio-file-sha1-checked,radio/abl.img,610d11e7a619538ca9a731bd4f7ee599bf271895)
 $(call add-radio-file-sha1-checked,radio/aop.img,326e4b02d442ece05bb56355a5515d1d33e7a6a8)
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,ab220d37b571945d8816e792c44392dd78279fa4)
 $(call add-radio-file-sha1-checked,radio/cmnlib.img,9ddb9a4758b6e89f4c257035aacd5c82b4ca2704)
